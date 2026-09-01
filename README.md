@@ -53,7 +53,7 @@ Then enter a movie title to get a list of recommended similar movies.
 - Python
 - Pandas / NumPy
 - Scikit-learn (CountVectorizer, cosine similarity)
-- Streamlit (if used for the UI)
+- Streamlit (used for the UI)
 
 ## Future Improvements
 
