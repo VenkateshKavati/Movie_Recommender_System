@@ -65,3 +65,5 @@ Then enter a movie title to get a list of recommended similar movies.
 
 - [TMDB](https://www.themoviedb.org/) for the dataset
 - Dataset hosted on [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
+- 🔗 **Live Demo:** [Click here to try the app](https://venkateshkavati-movie-recommender-system-app-iwc8tx.streamlit.app)
