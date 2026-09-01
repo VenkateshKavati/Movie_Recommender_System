@@ -37,7 +37,7 @@ similarity = pickle.load(open("similarity.pkl","rb"))
 st.title("Movie Recomender System")
 
 selected_movie_name = st.selectbox(
-    "how would you like to be contacted?",
+    "Select the movie name ",
     movies["title"].values
 )
 
@@ -45,17 +45,17 @@ if st.button("Recommend") :
     names,posters = recommend(selected_movie_name)
     col1,col2,col3,col4,col5 = st.columns(5)
     with col1:
-        st.header(names[0])
+        st.markdown(f"<p style='font-size:14px; text-align:center; font-weight:600'>{names[0]}</p>", unsafe_allow_html=True)
         st.image(posters[0])
     with col2:
-        st.header(names[1])
+        st.markdown(f"<p style='font-size:14px; text-align:center; font-weight:600'>{names[1]}</p>", unsafe_allow_html=True)
         st.image(posters[1])
     with col3:
-        st.header(names[2])
+        st.markdown(f"<p style='font-size:14px; text-align:center; font-weight:600'>{names[2]}</p>", unsafe_allow_html=True)
         st.image(posters[2])
     with col4:
-        st.header(names[3])
+        st.markdown(f"<p style='font-size:14px; text-align:center; font-weight:600'>{names[3]}</p>", unsafe_allow_html=True)
         st.image(posters[3])
     with col5:
-        st.header(names[4])
+        st.markdown(f"<p style='font-size:14px; text-align:center; font-weight:600'>{names[4]}</p>", unsafe_allow_html=True)
         st.image(posters[4])
